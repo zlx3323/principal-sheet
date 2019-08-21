@@ -1,0 +1,43 @@
+page{
+background: rgb(252, 251, 251);
+    font-size: 16px;
+    background:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563269146474&di=b6e8f80ff634deaa9853722ef7082b78&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201503%2F11%2F20150311221953_3Z3mM.jpeg) no-repeat 0 0;
+background-size: 110% auto;
+}
+.godreply {
+  margin-top: 50rpx;
+    padding: 14px;
+    font-family:"黑体-简";
+    color: #222;
+}
+
+.godreply .content{
+    background: #fff;
+     padding: 38px;
+    border-radius: 20px;
+    box-shadow: 0 20px 10px #f2f2f2;
+    overflow: hidden;
+    }
+
+.row{
+ margin: 50px 30px;
+  color: #888;
+  background: #f2f2f2;
+   font-size: 14px;
+}
+.rand{
+padding: 10px 30px;
+ border-radius: 12px;
+ float:left;
+  background: #f2f2f2;
+}
+.share{
+  padding: 3px 30px;
+   color: #999;
+  border-radius: 12px;
+   float:right;
+   font-size: 14px;
+}
+button::after {
+  border: none;
+}

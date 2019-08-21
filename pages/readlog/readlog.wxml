@@ -1,0 +1,68 @@
+<template name="tempHeader">
+  <view class="header">
+    <image src='../../images/logo.png' class='avatar'></image>
+    <view style='margin-top:40rpx'>
+      守望生活, 审视自我,宁静雅致的极乐.
+    </view>
+  </view>
+</template>
+<view class="containers" style="display:{{display}}">
+    <template is="tempHeader" />
+
+    <view class="wrapper">
+        <view class="excerpt me">
+            
+#我是谁？
+</view>
+<view class="excerpt me">
+我是技术宅
+</view>
+<view class="excerpt">
+喜欢音乐、爱生活、爱折腾、爱行走
+</view>
+<view class="excerpt">
+精通VB、VC、Php、Java、C++ 等语言 Hello world 的编写，曾以“极乐博客”的旗号在网上发布原创程序数款(均为php编写)。所发布的软件总下载量破百万！(才怪咧)
+</view>
+<view class="excerpt me">
+我是PHP开发攻城狮
+</view>
+<view class="excerpt">
+一次偶然的机会，看到《黑客帝国》这部电影，从此不再搬砖，转行做了站长。靠着自学了仅一周的渣前端与后端技术，借助Bootstrap框架搭建了一个又一个网站。后来发现原来php和c语言的结构差不多，后台就都用php开发了。
+</view>
+<view class="excerpt me">
+#关于本工具
+</view>
+<view class="excerpt">
+本工具定位为极乐博客旗下的工具箱，在这里总结学习知识，记录平日所思，徜徉于缤纷错乱的互联网世界，且歌，且行，且冥…
+</view>
+<view class="excerpt me">
+#如何联系我？
+</view>
+<view class="excerpt">
+QQ： 不闲聊也不登陆，还是不公开好了……
+</view>
+<view class="excerpt">
+微信：zlxsbbbb
+</view>
+<view class="excerpt">
+E-mail：605476114@qq.com
+</view>
+        
+
+     
+        <view style='text-align:center'>
+            <button class="gotowebpage-button"  size="mini" open-type="contact">找极乐闲聊</button>
+            
+            <button class="gotowebpage-button" catchtap="onNavRedirect"  size="mini"  data-redicttype="miniapp" data-url="pages/index/index" data-appid="wx36e8f3f84e427269" data-extraData="">访问“极乐博客”</button>
+           
+        </view>
+       
+        
+    </view>
+   
+      
+
+</view>
+<template name="tempCopyright">
+<view>  © 2019 极乐博客       </view>
+</template>

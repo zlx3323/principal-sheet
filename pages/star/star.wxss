@@ -1,0 +1,59 @@
+page{
+background: rgb(252, 251, 251);
+font-size: 16px;
+background:url("https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2925413256,4269647535&fm=26&gp=0.jpg");
+background-size: 110% auto;
+
+}
+/* 下拉框 */
+.top-selected,.top-selected-he{
+float: left;
+border: 1rpx solid #fff;
+padding: 6rpx 20rpx;
+margin: 20rpx 6px;
+font-size: 30rpx;
+border-radius: 4px;
+}
+.top-selected-he{
+float: right;
+}
+
+.select_box,.select_box_he {
+background-color: #fff;
+padding: 0 20rpx;
+width: 20%;
+float: left;
+position: relative;
+right: 0;
+z-index: 1;
+overflow: hidden;
+text-align: left;
+font-size: 30rpx;
+}
+.select_box_he {
+  float: right;
+}
+.select_one {
+padding-left: 10rpx;
+width: 100%;
+height: 60rpx;
+position: relative;
+line-height: 60rpx;
+}
+
+.xingzuo{
+  margin-bottom: 0rpx;
+  color:white;
+
+}
+.neir{
+  margin-top: 50rpx;
+  color:white;
+
+font-size: 24rpx;
+padding: 50rpx 30rpx;
+}
+.grade{
+  font-size: 28rpx;
+  padding-bottom: 50rpx;
+}

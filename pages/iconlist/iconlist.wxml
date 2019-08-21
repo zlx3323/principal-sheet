@@ -1,0 +1,10 @@
+<view class="container">
+<view class="godreply">
+<view class="content" ><text selectable="true">{{content}}</text></view>
+</view>
+<view class="row">
+<view bindtap="Tianapi" class="rand">再来一个</view>
+<button class="share" open-type="share">转发分享</button>
+</view>
+</view>
+

@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/iconlist/iconlist",
+    "pages/star/star",
+    "pages/laji/laji",
+    "pages/upload/upload",
+    "pages/readlog/readlog",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "土味情话",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#9BABBA",
+    "selectedColor": "#495056",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/iconlist/iconlist",
+        "iconPath": "images/tar-home.png",
+        "selectedIconPath": "images/tar-home-on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/star/star",
+        "iconPath": "images/tar-topic.png",
+        "selectedIconPath": "images/tar-topic-on.png",
+        "text": "星座配对"
+      },
+      {
+        "pagePath": "pages/laji/laji",
+        "iconPath": "images/ranking.png",
+        "selectedIconPath": "images/ranking-on.png",
+        "text": "垃圾分类"
+      },
+      {
+        "pagePath": "pages/upload/upload",
+        "iconPath": "images/tar-about.png",
+        "selectedIconPath": "images/tar-about-on.png",
+        "text": "识图"
+      },
+      {
+        "pagePath": "pages/readlog/readlog",
+        "iconPath": "images/tar-person.png",
+        "selectedIconPath": "images/tar-person-on.png",
+        "text": "关于"
+      }
+    ]
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx36e8f3f84e427269"
+    
+  ],
+  "sitemapLocation": "sitemap.json"
+}

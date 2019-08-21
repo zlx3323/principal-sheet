@@ -1,0 +1,32 @@
+<view class="container">
+<!-- 你的星座选择 -->
+<view class="xingzuo">
+<view class='top-selected' bindtap='bindShowMsg_me'>
+  <text>{{grade_name_me}}</text>
+</view>
+<!-- 对方星座选择 -->
+<view class='top-selected-he' bindtap='bindShowMsg_he'>
+  <text>{{grade_name_he}}</text>
+</view>
+</view>
+
+<!-- 下拉框显示列表 -->
+<view class="select_box" wx:if="{{select_me}}">
+  <view wx:for="{{grades_me}}" wx:key="unique">
+    <view class="select_one" bindtap="mySelect_me" data-name="{{item}}">{{item}}</view>
+  </view>
+</view>
+
+<!-- 对象显示的列表 -->
+<view class="select_box_he" wx:if="{{select_he}}">
+  <view wx:for="{{grades_he}}" wx:key="unique">
+    <view class="select_one" bindtap="mySelect_he" data-name="{{item}}">{{item}}</view>
+  </view>
+</view>
+
+<view class="neir" wx:for="{{bindSource}}">
+<view class="grade">{{item.title}}</view>
+<view class="grade">{{item.grade}}</view>
+<view class="content">{{item.content}}</view>
+</view>
+</view>
