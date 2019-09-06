@@ -25,6 +25,7 @@ Page({
         console.log(err)
       }
     })
+    
   },
   /**
    * 用户点击右上角分享
@@ -40,14 +41,15 @@ Page({
     return {
       title: '安利一段土味情话~',
       path: '/pages/iconlist/iconlist',
-
+      
       success: (res) => {
         console.log("转发成功", res);
       },
       fail: (res) => {
         console.log("转发失败", res);
       }
-      
+
     }
+
   }
 })
